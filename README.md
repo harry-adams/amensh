@@ -22,7 +22,7 @@ This may raise some warnings in zsh, however it should execute correctly
 
 to verify you may:
 ```bash
-cat .zshrc
+cat ~/.zshrc
 ```
 and look to see if the function is present
 
