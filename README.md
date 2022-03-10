@@ -9,7 +9,7 @@ Amensh is a CLI tool to speed up the workflow of developers using a single commi
 
 ## Installation
 
-Run the following command to add it to your shell rc file e.g. bashrc, zshrc, fish_config
+Run the following command to add it to your shell rc file e.g. bashrc, zshrc, config.fish
 
 ## Bash
 ```bash
