@@ -8,7 +8,7 @@ Run the following command to add it to your shell rc file e.g. bashrc, zshrc, fi
 
 ## Bash
 ```bash
-cat <<EOT >> ~/.bashrc
+cat >> ~/.bashrc <<EOL
 function amensh () {
     local branch_name=$1
     git add -A &&
@@ -17,12 +17,12 @@ function amensh () {
     git rebase origin/$branch_name &&
     git push -f
 }
-EOT
+EOL
 ```
 
 ## Zsh
 ```bash
-cat <<EOT >> ~/.zshhrc
+cat >> ~/.zshrc <<EOL
 function amensh () {
     local branch_name=$1
     git add -A &&
@@ -31,7 +31,12 @@ function amensh () {
     git rebase origin/$branch_name &&
     git push -f
 }
-EOT
+EOL
+```
+
+Remember to refresh your rc file:
+```bash
+source .bashrc
 ```
 
 ## Usage
