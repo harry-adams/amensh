@@ -40,3 +40,4 @@ function amensh () {
 EOL
 source ~/.config/fish/config.fish
 fi
+echo "Successfully Installed"
