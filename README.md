@@ -1,4 +1,5 @@
-# Amensh
+![logo (1)](https://user-images.githubusercontent.com/91059134/157690464-37728147-edfd-4e97-aa48-f79d93c05d57.png)
+
 
 Short for AMEND REBASE PUSH
 
