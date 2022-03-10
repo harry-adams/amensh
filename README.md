@@ -21,12 +21,12 @@ rm install.sh
 ## Usage
 
 ```bash
-$ amensh <base branch>
+amensh <base branch>
 ```
 ### e.g.
 
 ```bash
-$ amensh master
+amensh master
 ```
  - Add all untracked files, 
  - Amend them into the current commit, 
