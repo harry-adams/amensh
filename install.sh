@@ -10,6 +10,7 @@ function amensh () {
   git push -f
   }
 EOL
+source ~/.bashrc
 fi
 if [ "$SHELL" == "/bin/zsh" ];
 then
@@ -23,6 +24,7 @@ function amensh () {
     git push -f
 }
 EOL
+source ~/.zshrc
 fi
 if [ "$SHELL" == "/bin/fish" ];
 then
@@ -36,4 +38,5 @@ function amensh () {
     git push -f
 }
 EOL
+source ~/.config/fish/config.fish
 fi
