@@ -11,51 +11,11 @@ Amensh is a CLI tool to speed up the workflow of developers using a single commi
 
 Run the following command to add it to your shell rc file e.g. bashrc, zshrc, config.fish
 
-## Bash
 ```bash
-cat >> ~/.bashrc <<EOL
-function amensh () {
-    local branch_name=$1
-    git add -A &&
-    git commit --amend --no-edit &&
-    git fetch --all &&
-    git rebase origin/$branch_name &&
-    git push -f
-}
-EOL
-```
-
-## Zsh
-```bash
-cat >> ~/.zshrc <<EOL
-function amensh () {
-    local branch_name=$1
-    git add -A &&
-    git commit --amend --no-edit &&
-    git fetch --all &&
-    git rebase origin/$branch_name &&
-    git push -f
-}
-EOL
-```
-
-## Fish
-```bash
-cat >> ~/.config/fish/config.fish <<EOL
-function amensh () {
-    local branch_name=$1
-    git add -A &&
-    git commit --amend --no-edit &&
-    git fetch --all &&
-    git rebase origin/$branch_name &&
-    git push -f
-}
-EOL
-```
-
-Remember to refresh your rc file:
-```bash
-source .bashrc
+curl https://raw.githubusercontent.com/harry-adams/amensh/main/install.sh -o install.sh
+bash install.sh
+# clean up install
+rm install.sh
 ```
 
 ## Usage
