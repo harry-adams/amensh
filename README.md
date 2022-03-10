@@ -13,10 +13,18 @@ Run the following command to add it to your shell rc file e.g. bashrc, zshrc, co
 
 ```bash
 curl https://raw.githubusercontent.com/harry-adams/amensh/main/install.sh -o install.sh
-bash install.sh
-# clean up install
+sh install.sh
 rm install.sh
 ```
+
+## Warnings
+This may raise some warnings in zsh, however it should execute correctly
+
+to verify you may:
+```bash
+cat .zshrc
+```
+and look to see if the function is present
 
 ## Usage
 
