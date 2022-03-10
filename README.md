@@ -39,6 +39,20 @@ function amensh () {
 EOL
 ```
 
+## Fish
+```bash
+cat >> ~/.config/fish/config.fish <<EOL
+function amensh () {
+    local branch_name=$1
+    git add -A &&
+    git commit --amend --no-edit &&
+    git fetch --all &&
+    git rebase origin/$branch_name &&
+    git push -f
+}
+EOL
+```
+
 Remember to refresh your rc file:
 ```bash
 source .bashrc
