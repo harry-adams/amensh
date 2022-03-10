@@ -1,9 +1,11 @@
 ![logo (2)](https://user-images.githubusercontent.com/91059134/157690752-bac759a7-e25d-4a27-bf5e-47d6523557c3.png)
-
-
-Short for AMEND REBASE PUSH
-
+---
 Amensh is a CLI tool to speed up the workflow of developers using a single commit to master workflow
+
+ 1. AMEND 
+ 2. REBASE 
+ 3. PUSH
+
 
 ## Installation
 
