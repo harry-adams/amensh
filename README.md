@@ -9,23 +9,14 @@ Amensh is a CLI tool to speed up the workflow of developers using a single commi
 
 ## Installation
 
-Run the following command to add it to your shell rc file e.g. bashrc, zshrc, config.fish
-
-```bash
-curl https://raw.githubusercontent.com/harry-adams/amensh/main/install.sh -o install.sh
-sh install.sh
-rm install.sh
+grab the binary and place it in a location that your path has access to e.g.
 ```
-
-## Warnings
-This may raise some warnings in zsh, however it should execute correctly
-
-to verify you may:
-```bash
-cat ~/.zshrc
+curl https://github.com/harry-adams/amensh/raw/main/amensh >> $HOME/.local/bin/amensh
 ```
-and look to see if the function is present
-
+update the privileges
+```
+sudo chmod +x $HOME/.local/bin/amensh
+```
 ## Usage
 
 ```bash
